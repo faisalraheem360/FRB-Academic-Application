@@ -1,0 +1,42 @@
+﻿@model FaisalRaheemAcademicDataApp.Models.Student
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1 style="color:aqua; text-align:center;">Student Details</h1>
+
+<div>
+    
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Gender)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Gender)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Age)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Age)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Standard)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Standard)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-primary">Update</a> |
+    <a asp-action="Index"class="btn btn-primary">Back to List</a>
+</div>

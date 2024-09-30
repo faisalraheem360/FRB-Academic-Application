@@ -5,9 +5,9 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using FaisalRaheemAcademicDataApp.Models;
+using FRBAcademicDataApp.Models;
 
-namespace FaisalRaheemAcademicDataApp.Controllers
+namespace FRBAcademicDataApp.Controllers
 {
     public class StudentsController : Controller
     {

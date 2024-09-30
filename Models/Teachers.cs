@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace FaisalRaheemAcademicDataApp.Models
+namespace FRBAcademicDataApp.Models
 {
     public partial class Teachers
     {

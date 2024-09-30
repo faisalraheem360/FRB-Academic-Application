@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FaisalRaheemAcademicDataApp.Controllers
+namespace FRBAcademicDataApp.Controllers
 {
     public class HomeController : Controller
     {

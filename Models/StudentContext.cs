@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace FaisalRaheemAcademicDataApp.Models
+namespace FRBAcademicDataApp.Models
 {
     public partial class StudentContext : DbContext
     {
@@ -23,7 +23,7 @@ namespace FaisalRaheemAcademicDataApp.Models
             if (!optionsBuilder.IsConfigured)
             {
 
-                optionsBuilder.UseSqlServer("server=faisalraheem\\SQLEXPRESS; database=Student; trusted_connection=true;");
+                optionsBuilder.UseSqlServer("server=FRB\\SQLEXPRESS; database=Student; trusted_connection=true;");
             }
         }
 

@@ -8,7 +8,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace FaisalRaheemAcademicDataApp
+namespace FRBAcademicDataApp
 {
     public class Program
     {
